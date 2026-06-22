@@ -27,7 +27,7 @@ async function main() {
       published: true,
     },
   });
-  console.log("Created user:", newPost);
+  console.log("User Created:", newPost);
 
   // Fetch all users with their posts
   const allUsers = await prisma.user.findMany({
