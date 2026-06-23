@@ -29,6 +29,15 @@ async function main() {
   });
   console.log("User Created:", newPost);
 
+
+  // const Issue = await prisma.post.create({
+  //   data: {
+  //     issueId: 1,
+  //     title: "First Bug",
+  //     description:"",
+  //   },
+  // });
+
   // Fetch all users with their posts
   const allUsers = await prisma.user.findMany({
     include: {
