@@ -28,8 +28,15 @@ model Post {
   authorId  Int
 }
 
-model Issue {
-  issueId Int @id @default(autoincrement())
-  title String
-  description String
-}
+// model Issue {
+//   issueId Int @id @default(autoincrement())
+//   title String
+//   description String
+// }
+
+// model Product {
+//   id Int @id @default(autoincrement())
+//   name String
+//   price Int
+//   desc String
+// }
