@@ -28,3 +28,6 @@ model Post {
   authorId  Int
 }
 
+model Issues {
+  id Int @id @default(autoincrement())
+}
